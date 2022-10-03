@@ -46,28 +46,68 @@
     - Api (La documentacion es muy buena y podemos ir a consultarla siempre)
 */
 
-//
+// expect()
 /*
+    - Es una funcion que ayuda a validar un componente de un componente que vamos a inspeccionar, o el valor de retorn de una funcion.
+    - No es necesario importarlo
+    - El argumento es el valor a probar
+    - .matcher() metodo que viene incluido en la funcion expect(). Ejm: expect(tuFuncion()).toEqual(5)
+
+    - Matcher + usados:
+    toBeDefined() => que haya una valor definido
+    toBeUndefined()
+    toEqual(valor)
+    toBe(valor) 
+    toBeInstanceOf(valor) => cuando quieres corroborar si es una instancia
+    toBeTruthy() => validas si el resultado es verdadero
+    toBeGreaterThan(valor) => valida si el resultado es mayor al valor que envias como valor
+    toHaveLength(valor) => cuando trabajas con arreglo y valida el tamaño
 */
 
-//
+// comando: --collectCoverage=true (packaje.json)
 /*
+    Es un comando esencial, y nos envia un porcentaje como unreporte de que parte de nuestro proyecto estamos haciendo pruebas
 */
 
-//
+// cuadro de resultados del test
 /*
+    Stmts: sentencias
+    Branch:
+    Funcs: funciones, metodos, y todas fueron ejecutadas correctamente
+    Lines:
+    Uncovered Line: lineas que no han sido cubiertas con pruebas unitarias
 */
 
-//
+// Instancias de TestRenderer
 /*
+    - testRenderer.toJSON() => Convierte el arbol en forma de objeto (Nos permite corroborar los tipos de elementos HTML)
+    - testRenderer.toTree() => Convertirlo en arbol
+    - testRenderer.update() => Actualizar para montar nuevamente el componente
+    - testRenderer.unmount() => Desmontar un componente
+    - testRenderer.getInstance() => La instancia de tu componente
+    - testRenderer.root => Viene a ser la instancia del objeto raiz
 */
 
-
+// Instancia de TestInstance
 /*
+    - Tambien hacer uso de los diferentes selectores del testInstance.
 */
 
-//
+// Repitiendo configuracion de algunos test
 /*
+    - Metodo que se ejecuta cada vez que se ejecuta un caso de Caso de Prueba
+    beforEach(() => {
+
+    })
+
+    - Método que se ejecuta luego que se ejecuta cada Caso de Prueba
+    afterEach(() => {
+
+    })
+
+    // Engloba todos los casos de prueba
+    beforeAll() se ejecuta antes de ejecutar los Casos de Prueba
+    afterAll() se ejecuta despues de ejecuitar los Casos de Prueba
 */
 
 //
