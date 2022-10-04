@@ -5,6 +5,13 @@
     3.pruebas E2E
 */
 
+// React-testing-renderer vs react-testing-library (curso fernando herrera)
+/*
+    - react-test-renderer es la librería de utilidades más básica que se entrega con React. De la documentación de React:
+    - Para los que usan el bundle CRA sugiero que utilicen el que lleva por defecto react-testing-library 
+    - React Testing Library es parte de la familia testing-library, está construida sobre react-test-renderer y está hecha para ser una solución bastante ligera.
+*/
+
 // 1.Pruebas unitarias (unit testing)
 /*
     - Se enfocan en las pruebas mas pequeñas de nuestro proyecto (componentes reuzables, componentes globales)
@@ -68,6 +75,8 @@
 /*
     Es un comando esencial, y nos envia un porcentaje como unreporte de que parte de nuestro proyecto estamos haciendo pruebas
 */
+
+// comando test a un archivo especifico: npm run test src/__test__/Gallery.test.js
 
 // cuadro de resultados del test
 /*
